@@ -1,6 +1,10 @@
 {
   "name": "goldbooksz",
   "private": true,
+  "engines": {
+   "node": "12.18.4",
+   "npm": "6.14.8"
+ },
   "scripts": {
     "start": "meteor run",
     "test": "meteor test --once --driver-package meteortesting:mocha",
@@ -12,10 +16,7 @@
     "jquery": "^3.5.1",
     "meteor-node-stubs": "^1.0.1"
   },
-  "engines": {
-   "node": "12.18.4",
-   "npm": "6.14.8"
- },
+
   "meteor": {
     "mainModule": {
       "client": "client/main.js",
